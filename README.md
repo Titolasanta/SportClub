@@ -1,6 +1,6 @@
 # Project Setup Guide
 
-This guide will walk you through setting up and running the Node.js and Next.js application, including Redis configuration.
+
 
 ## Prerequisites
 
@@ -25,9 +25,16 @@ npx ts-node src/server.ts
 ### Tests Backend
 
 ```bash
+cd backend
 npx jest
 ```
 
 
 ## FrontEnd
+
+```bash
+cd frontend
+npm install
 npm run dev
+
+```
